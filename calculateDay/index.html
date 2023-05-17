@@ -1,0 +1,37 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate Day to Hours Minutes Seconds</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab"
+      rel="stylesheet"
+    />
+    <div class="my-form">
+      <label for="day-input">Number of days</label>
+      <input id="day-input" type="number" min="1" />
+      <label for="startDate">From Date</label>
+      <input type="date" name="From Date" id="startDate" />
+      <label for="endDate">To Date</label>
+      <input type="date" name="To Date" id="endDate" />
+      <button id="calculate-button">Calculate!</button>
+      <p id="years"></p>
+      <p id="months"></p>
+      <p id="weeks"></p>
+      <p id="days"></p>
+      <p id="hours"></p>
+      <p id="minutes"></p>
+      <p id="seconds"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
