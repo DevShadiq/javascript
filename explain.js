@@ -1,5 +1,3 @@
-/** @format */
-
 class Episode {
   constructor(title, duration, minutesWatched) {
     this.etitle = title;
