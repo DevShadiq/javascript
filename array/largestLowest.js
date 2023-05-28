@@ -77,7 +77,7 @@ for (let ii = 0; ii < arr2.length; ii++) {
 }
 console.log('Lowest1 Number [arr2] : ' + lowestNum1);
 console.log('2nd Lowest1 Number [arr2] : ' + secLowest1);
-
+///Arrray data must be unique then nth work properly othewise not///
 let n = 5;
 function nthLowest(array, nth) {
     var sorted = array.sort(function (a, b) {
@@ -112,6 +112,7 @@ function nthLargest(array, nt) {
     });
     return sortedLargesr[nt - 1];
 }
+
 let nth1;
 switch (m) {
     case 1:
